@@ -1,5 +1,5 @@
 # 💫 About Me:
-I majorly study business, economics, finance and computer science. Along with this I am also interested in psychology, philosophy, history and ML related maths. I can speak and understand basic german language, I'am still learning it.<br>
+I primarily study business, economics, finance, and computer science. In addition, I have a strong interest in psychology, philosophy, history, and evolutionary biology. I can speak and understand basic German, and I am currently working to improve my proficiency.<br>
 
 
 # 💻 Tech Stack:
