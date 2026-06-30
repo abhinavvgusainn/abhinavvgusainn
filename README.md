@@ -1,7 +1,7 @@
 # 🕷️ About Me:
 I primarily study business, economics, finance, and programming. In addition, I have a strong interest in psychology, philosophy, history, and evolutionary biology. I can speak and understand basic German and I am working to improve my proficiency.<br><br>Currently focused on developing quantitative and analytical skills across business, finance, economics, and programming.<br>
 
-## 🌐 Connect with Me
+## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinav-gusain/)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/abhinavvgusainn)
 
