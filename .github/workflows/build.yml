@@ -4,12 +4,15 @@ on:
   push:
     branches:
       - main
+
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "30 18 * * *" 
+
   workflow_dispatch:
 
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     permissions:
@@ -25,7 +28,9 @@ jobs:
           python-version: "3.13"
 
       - name: Install dependencies
-        run: python -m pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
 
       - name: Update README SVG
         env:
@@ -37,6 +42,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add light_mode.svg dark_mode.svg
-          git diff --staged --quiet || git commit -m "Update GitHub profile stats"
-          git push
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update GitHub profile stats"
+            git push
+          else
+            echo "No changes to commit."
+          fi
